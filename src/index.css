@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for centering the calendar */
+.react-datepicker {
+  margin: 0 auto;
+}
+
+.react-datepicker__month-container {
+  float: none;
+}
+
+.react-datepicker__day-names, .react-datepicker__week {
+  display: flex;
+  justify-content: space-around;
+}
+
+.react-datepicker__day-name, .react-datepicker__day {
+  flex: 1;
+  max-width: 40px;
+}
